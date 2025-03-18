@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 20px;;
+}
+
+.bouton1 {   /* pb background du bouton*/
+    border: solid;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.bouton2 {   /* pb background du bouton*/
+    border: solid;
+    background-color: rgb(41, 30, 187);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+/*
+pb taille background
+*/
+.presentation {
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.unsplash.com/photo-1532364158125-02d75a0f7fb9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 800px;
+}
+
+
