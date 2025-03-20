@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     width: 100%;
+    font-family: "Open Sans", sans-serif;    
 }
 
 .header {
@@ -12,6 +13,10 @@
     padding-bottom: 20px;;
 }
 
+.containers {
+    padding-left: 2%;
+    padding-right: 2%;
+}
 .bouton1 {   /* pb background du bouton*/
     border: solid;
     background-color: black;
@@ -28,15 +33,35 @@
     
 }
 
-/*
-pb taille background
-*/
 .presentation {
     display: flex;
     flex-direction: row;
-    background-image: url(https://images.unsplash.com/photo-1532364158125-02d75a0f7fb9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
-    height: 800px;
+    background-image: url(photo-1532364158125-02d75a0f7fb9.jpeg);
+    height: 700px;
+    background-position: bottom;
+    border-radius: 4%;
 }
 
+.processLine {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.processLine::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 20%;
+    bottom: 15%;
+    left: 30%;
+    margin-left: -200px;
+}
+
+.first {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
