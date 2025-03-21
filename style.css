@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 20px;;
+}
+
+.containers {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.bouton1 {  
+    border: solid;
+    background-color: black;
+    color: white;
+    border-radius: 10px;   
+}
+
+.bouton2 {   
+    border: solid;
+    background-color: rgb(41, 30, 187);
+    color: white;
+    border-radius: 10px;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: 9fr;
+    background-image: url(photo-1532364158125-02d75a0f7fb9.jpeg);
+    height: 600px;
+    background-position: center;
+    border-radius: 4%;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: left;
+    justify-content: space-between;
+    
+    /*position: absolute;*/
+    
+}
+
+.processLine {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    max-width: 1200px;
+}
+
+.processLine::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 8%;
+    bottom: 2%;
+    left: 10%;
+}
+
+.first {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.first::after {
+    content: '1';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    bottom: 15%;
+    top: 20%;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+    border: 4px solid white;   
+}
+
+.second {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.second::after {
+    content: '2';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    bottom: 15%;
+    top: 20%;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: white;
+    border: 4px solid white;
+}
+
+.third {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.third::after {
+    content: '3';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    bottom: 15%;
+    top: 20%;
+    border-radius: 50%;
+    z-index: 3;
+    background-color: white;
+    border: 4px solid white;
+}
