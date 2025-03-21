@@ -35,9 +35,10 @@
 .presentation {
     display: grid;
     grid-template-columns: 9fr;
-    background-image: url(photo-1532364158125-02d75a0f7fb9.jpeg);
+    background-image: url(plane.jpeg);
+    background-size: cover;
+    background-position: bottom;
     height: 600px;
-    background-position: center;
     border-radius: 4%;
 }
 
