@@ -10,7 +10,8 @@
     text-align: center;
     justify-content: center;
     gap: 80px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .containers {
@@ -27,7 +28,7 @@
 
 .bouton2 {   
     border: solid;
-    background-color: rgb(41, 30, 187);
+    background-color: rgb(56, 47, 184);
     color: white;
     border-radius: 10px;
 }
@@ -39,6 +40,8 @@
     background-size: cover;
     background-position: bottom;
     height: 550px;
+    position: relative;
+
     border-radius: 4%;
 }
 
@@ -61,7 +64,7 @@
 .processLine::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 4px;
     background-color: white;
     top: 8%;
     bottom: 2%;
