@@ -37,7 +37,7 @@
     grid-template-columns: 9fr;
     background-image: url(plane.jpeg);
     background-size: cover;
-    background-position: 0%;
+    background-position: bottom;
     height: 550px;
     border-radius: 4%;
 }
@@ -45,13 +45,13 @@
 .contenu {
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: center;
     align-items: left;
-    justify-content: space-between; 
+    justify-content: space-between;    
+    
 }
 
 .processLine {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
@@ -86,7 +86,7 @@
     border-radius: 50%;
     z-index: 1;
     background-color: white;
-    border: 4px solid white; 
+    border: 4px solid white;   
 }
 
 .second {
@@ -105,8 +105,8 @@
     bottom: 15%;
     top: 20%;
     border-radius: 50%;
-    z-index: 1;
-    border: 4px solid white;  
+    z-index: 2;
+    border: 4px solid white;
 }
 
 .third {
@@ -125,13 +125,13 @@
     bottom: 15%;
     top: 20%;
     border-radius: 50%;
-    z-index: 1;
-    border: 4px solid white;   
+    z-index: 3;
+    border: 4px solid white;
 }
 
 .rightCorner {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: right;
+    text-align: right;
+    
 }
