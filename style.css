@@ -47,9 +47,7 @@
     flex-direction: column;
     text-align: center;
     align-items: left;
-    justify-content: space-between;
-    
-    /*position: absolute;*/
+    justify-content: space-between;    
     
 }
 
@@ -82,7 +80,7 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 30%;
+    left: 15.5%;
     bottom: 15%;
     top: 20%;
     border-radius: 50%;
@@ -103,12 +101,11 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 30%;
+    left: 15.5%;
     bottom: 15%;
     top: 20%;
     border-radius: 50%;
     z-index: 2;
-    background-color: white;
     border: 4px solid white;
 }
 
@@ -124,11 +121,10 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 30%;
+    left: 15.5%;
     bottom: 15%;
     top: 20%;
     border-radius: 50%;
     z-index: 3;
-    background-color: white;
     border: 4px solid white;
 }
