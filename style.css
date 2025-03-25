@@ -91,17 +91,55 @@
     padding-left: 90px;
     padding-top: 80px;
     border-radius: 4%;
+    padding-bottom: 20px;
+    gap: 20px;
     border: solid;
     border-color: forestgreen;
-}
+} 
 
-.front {
-    padding-bottom: 20px;
+.description {
+    padding-bottom: 50px;
+
 }
 
 .places {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
 }
 
+.dest1 {
+    border-radius: 4%;
+}
+
+.fth-bloc {
+    padding-top: 80px;
+    border: solid;
+    border-color: yellow;
+}
+
+.top-part {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.podium {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 90px;
+    text-align: justify;
+    justify-content: center;    
+}
+
+.last {
+    padding-left: 90px;
+    border: solid;
+    border-color: darkgray;
+}
+
+.last img {
+    height: 20vh;
+    width: 150px;
+}
