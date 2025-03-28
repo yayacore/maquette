@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       <!-- bibliothèque des "émojis" réseaux socieaux-->
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>                               <!-- bibliotèque des "icones" de loc-->
 
     <title>YAYA Airlines ✨</title> 
 </head>
 
 <!-- ça c'est pour commenter-->
+
 <body>
 
     <section class="containers">
 
         <section class="header">
-            <!-- logo de la compagnie aérienne à faire sur figma -->
-            <p1>YAYA AIRLINES</p1>
-            <p1>ABOUT </p1>
-            <p2>TOUR </p2>
-            <p3>PACKAGE </p3>
-            <p4>CONTACT </p4>
+            <div class="logoCie">
+                <!-- logo de la compagnie aérienne à faire sur figma -->
+                <p1>YAYA AIRLINES</p1>
+            </div>
+
+            <div class="txt">
+                <p1>ABOUT </p1>
+                <p2>TOUR </p2>
+                <p3>PACKAGE </p3>
+                <p4>CONTACT </p4>
+            </div>
             
             <div class="bouton">
                 <span class="bouton1"><a href="https://www.google.fr"><font color = "white">Book trip</font></a></span>
@@ -30,7 +35,7 @@
 
         </section>
 
-        <section class="hero-section">      <!--1er bloc-->
+        <section class="heroSection">      <!--1er bloc-->
             
             <div class="contenu">
                 <div class="first">
@@ -38,7 +43,9 @@
                 </div>
             
                 <div class="second">
-                    <h1>Experience The Magic Of Flight !</h1>
+                    <h2>Experience</h2>
+                    <h2>The Magic Of</h2> 
+                    <h2>Flight !✈️</h2>
                 </div>
 
                 <div class="third">
@@ -53,80 +60,67 @@
             <div class="rightCorner">
                 <div class="textRight">
                     <p1>Know more</p1>
-                    <br>
                     <p2>Awsome places</p2>
-                    <br>
                     <small>Discover the world one adventure at a time !</small>
                 </div>
 
             </div>
         </section>
             
-        <section class="scnd-bloc">         <!--2eme bloc-->
+        <section class="scndBloc">         <!--2eme bloc-->
 
-            <div class="socials">
                 <small>Follow</small>
-                    <div class="twitter">
-                    <a href="#" class="fa fa-twitter"></a>
-                </div>
 
-                <div class="fb">
-                    <a href="#" class="fa fa-facebook"></a>
-                </div>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+          
+                <p1>airbnb</p1>
+                <p2>booking</p2>        <!-- !! faire un crop des logos sur figma ? -->
+                <p3>trivago</p3>
+                <p4>expedia</p4>
+           
 
-                <div class="instagram">
-                    <a href="#" class="fa fa-instagram"></a>
-                </div>
-
-            </div>
-
-            <div class="logos">
-                <!-- *airbnb
-                     *booking        !! faire un crop des logos sur figma ? 
-                     *trivago
-                     *expedia
-                -->
-            </div>
         </section>
 
-        <section class="thrd-bloc">         <!--3eme bloc-->
-
-            <div class="description">
-                <h1>Popular destination</h1>
-                <small>Unleash your wanderlust with skywings</small>
-                <!-- add flèche directionnelle -->
-            </div>
+        <section class="thrdBloc">         <!--3eme bloc-->
+            <h2>Popular destination</h2>
+            <small>Unleash your wanderlust with skywings</small>
+            <!-- add flèche directionnelle -->
             
             <div class="places">
                 <div class="dest1">
                     <img src="plane.jpeg" alt="avion">
                     <p1>Forest wild life</p1>
-                    <i class='fas fa-map-marker-alt'></i>
+                    <img class = "loc" src="loc.png" alt="loc">
                     <small>NUSANTARA, Indonesia</small>
-                    <span class="star-bouton1"><font color = "white">4.7</font></span>
+                    <span class="starBouton1"><font color = "white">4.7</font></span>
                 </div>
 
                 <div class="dest2">
                     <img src="plane.jpeg" alt="avion">
-                    <p2>Forest wild life</p2>
-                    <small>NUSANTARA, Indonesia</small>
-                    <span class="star-bouton2"><font color = "white">4.7</font></span>
+                    <p1>Forest wild life</p1>
+                    <img class = "loc" src="loc.png" alt="loc">
+                    <small>Isla Nublar</small>
+                    <span class="starBouton2"><font color = "white">4.7</font></span>
                     <small></small>
                 </div>
 
                 <div class="dest3">
                     <img src="plane.jpeg" alt="avion">
-                    <p3>Forest wild life</p3>
-                    <small>NUSANTARA, Indonesia</small>
-                    <span class="star-bouton3"><font color = "white">4.7</font></span>
+                    <p1>Forest wild life</p1>
+                    <img class = "loc" src="loc.png" alt="loc">
+                    
+                    <small>Cracovik</small>
+                    <span class="starBouton3"><font color = "white">4.7</font></span>
                 </div>
 
             </div>
         </section>
 
-        <section class="fth-bloc">          <!--4eme bloc-->
+        <section class="fthBloc">          <!--4eme bloc-->
 
-            <div class="top-part">
+            <div class="topPart">
                 <h1>Journey to the skies made simple !</h1>
                 <small>Travelling is a wonderful way to explore new places. 
                 Learn about different cultures ang gain unique experiences. 
@@ -158,24 +152,30 @@
 
         <section class="last">              <!--dernier bloc-->
            
-            <div class="leftPart">
-                <img src="plane.jpeg" alt="avion">
-                <h1>20% OFF</h1>
-                <small>Till April 27,
-                2077</small>
-            </div>
-            
-            <div class="Boldtext">
-                <h1>UNLEASH WANDERLUST WITH SKYWINGS</h1>
+            <div class="partSup">
+                <div class="leftPart">
+                    <img src="plane.jpeg" alt="avion">
+                </div>
+
+                <div class="rightPart">
+                    <h1>UNLEASH WANDERLUST WITH SKYWINGS</h1>
+                    <small>Lorem ipsum blablablablablablablalbalabla
+                    blalablaabblblblablablbalbl</small>
+                </div>
             </div>
 
-            <div class="SmallText">
-                <small>Lorem ipsum blablablablablablablalbalabla
-                blalablaabblblblablablbalbl</small>
-            </div>
+            <div class="partInf">
+                <div class="left">
+                    <h1>20% OFF</h1>
+                    <small>Till April 27,
+                    2077</small>
+                </div>
 
-            <div class="lastButton">
-                <p1>Book a flight now </p1>
+                <div class="right">
+                    <div class="lastButton">
+                        <p1>Book a flight now </p1>
+                    </div>
+                </div>
             </div>
 
         </section>

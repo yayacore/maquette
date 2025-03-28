@@ -8,12 +8,16 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: center;
-    gap: 80px;
     padding-bottom: 20px;
     padding-top: 10px;
+    justify-content: space-between;
     border: solid;
     border-color: blueviolet;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between ;   /*pb gap*/
 }
 
 .containers {
@@ -41,7 +45,7 @@
     padding-bottom: 4px;
 }
 
-.hero-section {
+.heroSection {
     display: flex;
     flex-direction: column;
     background-image: url(plane.jpeg);
@@ -61,8 +65,12 @@
     align-items: left;
     justify-content: space-between;  
     gap: 60px;
-    padding-top: 100px;
+    padding-top: 250px;
     padding-left: 290px;
+}
+
+.second {
+    font-size: 40px;
 }
 
 .rightCorner {
@@ -71,21 +79,31 @@
     text-align: right;
 }
 
-.scnd-bloc {
+.scndBloc { 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-top: 80px;
-    padding-left: 90px;
+    justify-content: center;
+    align-items: center;
+    
     border: solid;
     border-color: black;
 }
 
-.socials {
-    border-radius: 50%;
+.scndBloc a {
+    height: 100px;
+    width: 100px
 }
 
-.thrd-bloc {
+.socials {
+    border-radius: 50%;
+ 
+}
+
+.logos { 
+    padding-left: 40px;
+}
+
+.thrdBloc {
     display: flex;
     flex-direction: column;
     padding-left: 90px;
@@ -108,17 +126,28 @@
     gap: 40px;
 }
 
-.dest1 {
+.loc {
+    width: 10px;
+}
+.dest1 img {
     border-radius: 4%;
 }
 
-.fth-bloc {
+.dest2 img {
+    border-radius: 4%;
+}
+
+.dest3 img {
+    border-radius: 4%;
+}
+
+.fthBloc {
     padding-top: 80px;
     border: solid;
     border-color: yellow;
 }
 
-.top-part {
+.topPart {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -134,12 +163,30 @@
 }
 
 .last {
+    padding-top: 80px;
     padding-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border: solid;
     border-color: darkgray;
 }
 
-.last img {
-    height: 20vh;
-    width: 150px;
+.leftPart img {
+    height: 50vh;
+    width: 500px;
+    border-radius: 4%;
+}
+
+.partSup {
+    display: flex;
+    flex-direction: row;
+}
+
+.partInf {
+    display: flex;
+    flex-direction: row;
+}
+
+.lastButton {
+    padding-top: 485px;
 }
