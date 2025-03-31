@@ -1,192 +1,34 @@
 *{
-    margin: 0px;
-    width: 100%;
-    font-family: "Open Sans", sans-serif;    
+
+    display: flex 80vh;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    align-items: center;
     justify-content: space-between;
+}
+
+.headerMiddle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boutonHeader {
     border: solid;
-    border-color: blueviolet;
-}
-
-.txt {
-    display: flex;
-    justify-content: space-between ;   /*pb gap*/
-}
-
-.containers {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.bouton1 {  
     background-color: black;
-    color: white;
-    border-radius: 20px;   
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    border-radius: 10px;   
 }
 
-.bouton2 {   
-    background-color: rgb(56, 47, 184);
-    color: white;
-    border-radius: 20px;   
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-.heroSection {
-    display: flex;
-    flex-direction: column;
+.Planesection {
     background-image: url(plane.jpeg);
     background-size: cover;
-    background-position: bottom;
-    height: 80vh;
-    position: relative;
-    border-radius: 4%;
-    border: solid;
-    border-color: red;
+    background-position: top;
 }
 
-.contenu {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    align-items: left;
-    justify-content: space-between;  
-    gap: 60px;
-    padding-top: 250px;
-    padding-left: 290px;
+.Planesection h2 {
+    font-size: 50px;
 }
 
-.second {
-    font-size: 40px;
-}
-
-.rightCorner {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-}
-
-.scndBloc { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    border: solid;
-    border-color: black;
-}
-
-.scndBloc a {
-    height: 100px;
-    width: 100px
-}
-
-.socials {
-    border-radius: 50%;
- 
-}
-
-.logos { 
-    padding-left: 40px;
-}
-
-.thrdBloc {
-    display: flex;
-    flex-direction: column;
-    padding-left: 90px;
-    padding-top: 80px;
-    border-radius: 4%;
-    padding-bottom: 20px;
-    gap: 20px;
-    border: solid;
-    border-color: forestgreen;
-} 
-
-.description {
-    padding-bottom: 50px;
-
-}
-
-.places {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-}
-
-.loc {
-    width: 10px;
-}
-.dest1 img {
-    border-radius: 4%;
-}
-
-.dest2 img {
-    border-radius: 4%;
-}
-
-.dest3 img {
-    border-radius: 4%;
-}
-
-.fthBloc {
-    padding-top: 80px;
-    border: solid;
-    border-color: yellow;
-}
-
-.topPart {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.podium {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 90px;
-    text-align: justify;
-    justify-content: center;    
-}
-
-.last {
-    padding-top: 80px;
-    padding-left: 90px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: solid;
-    border-color: darkgray;
-}
-
-.leftPart img {
-    height: 50vh;
-    width: 500px;
-    border-radius: 4%;
-}
-
-.partSup {
-    display: flex;
-    flex-direction: row;
-}
-
-.partInf {
-    display: flex;
-    flex-direction: row;
-}
-
-.lastButton {
-    padding-top: 485px;
-}
