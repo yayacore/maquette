@@ -1,6 +1,9 @@
-*{
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    display: flex 80vh;
+.body {
+    margin: 0%;
 }
 
 .header {
@@ -8,27 +11,68 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
+    padding-bottom: 2%;
 }
 
-.headerMiddle {
-    display: flex;
-    flex-direction: row;
+.header img {
+    padding: 80px;
+}
+
+.headerMiddlePart {
     gap: 10px;
 }
 
 .boutonHeader {
-    border: solid;
+    border: solid 0px;
     background-color: black;
-    border-radius: 10px;   
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 35px;
+    width: 120px;
 }
 
-.Planesection {
-    background-image: url(plane.jpeg);
+.planeSection {
+    display: block;
+    text-align: start;
+    align-items: center;
+    position: absolute;
+    padding-top: 5%;
+    padding-right: 50%;
+    padding-left: 10%;
+    background-image: url(clouds.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    border-radius: 50px;
+    height: 50vh;
 }
 
-.Planesection h2 {
+.planeSection h2 {
     font-size: 50px;
 }
 
+.cliquable {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 8px;
+}
+
+.boutonPlane {
+    border: solid 0px;
+    background-color: blue;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 35px;
+    width: 180px;
+}
+
+.planeSection img {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    padding-left: 900px;
+}
